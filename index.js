@@ -19,10 +19,6 @@ module.exports.pitch = function(req) {
 		source.push("require(" + JSON.stringify("!!" + req) + ")");
 		source.push("loaderMocha.teardownTestContext(window);");
         source.push("var suite = loaderMocha.suite();");
-        source.push("console.log(\"this.query: \", " + JSON.stringify(this.query) + ");");
-        source.push("console.log(\"query: \", " + JSON.stringify(query) + ");");
-        source.push("console.log(\"query ui: " + JSON.stringify(query["ui"]) + "\");");
-        source.push("console.log(\"query decorate: " + JSON.stringify(query["decorate"]) + "\");");
         if (decorate) {
             source.push("suite.module = {};");
             source.push("suite.module.id = " + module.id + ";");
