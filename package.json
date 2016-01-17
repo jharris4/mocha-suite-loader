@@ -1,6 +1,6 @@
 {
 	"name": "mocha-suite-loader",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "Jon Harris @jharris4",
 	"description": "mocha suite test loader module for webpack",
 	"repository" : {
