@@ -1,0 +1,22 @@
+{
+	"name": "mocha-suite-loader",
+	"version": "0.1.0",
+	"author": "Jon Harris @jharris4",
+	"description": "mocha suite test loader module for webpack",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/jharris4/mocha-suite-loader"
+	},
+	"peerDependencies": {
+		"mocha": "^2.3.4"
+	},
+	"dependencies": {
+		"loader-utils": "~0.2.5"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	]
+}
