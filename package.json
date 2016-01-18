@@ -1,8 +1,8 @@
 {
 	"name": "mocha-suite-loader",
-	"version": "0.1.1",
+	"version": "0.2.0",
 	"author": "Jon Harris @jharris4",
-	"description": "mocha suite test loader module for webpack",
+	"description": "mocha test suite loader module for webpack",
 	"repository" : {
 		"type" : "git",
 		"url" : "https://github.com/jharris4/mocha-suite-loader"
@@ -11,7 +11,8 @@
 		"mocha": "^2.3.4"
 	},
 	"dependencies": {
-		"loader-utils": "~0.2.5"
+		"loader-utils": "~0.2.5",
+		"script-loader": "~0.6.0"
 	},
 	"licenses": [
 		{
